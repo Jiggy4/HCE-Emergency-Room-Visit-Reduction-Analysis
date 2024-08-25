@@ -1,18 +1,11 @@
-# Project Architecture for Analyzing Emergency Room Visit Reduction and Food Insecurity in New England
+# Project Architecture for Health Care Economics: Emergency Room Visit Reduction Analysis
 
 ## Overview
-This project focuses on understanding the relationship between food insecurity and emergency room (ER) utilization across New England counties. The goal is to determine if psychosocial factors, such as food insecurity, drive higher ER use and to develop strategies to address these disparities. The project also aims to recommend interventions to reduce ER visits at Good Health Physicians.
+This project focuses on reducing the emergency room (ER) visits for Good Health Physicians. Our goal is to reduce the utilization to an annual rate of 450 ER visits per 1000 members within three years. Three strategic options were proposed and analyzed to achieve this target.
 
 ## Data Description
-### Dataset 1: ER Visit Reduction at Good Health Physicians
-- **Dataset Size:** Details not specified
 - **Features:** Variables related to healthcare access and ER utilization
 - **Target Variable:** Reduction in ER visits to meet the annual target of 450 visits per 1000 members
-
-### Dataset 2: Food Insecurity and ER Utilization in New England
-- **Dataset Size:** County-level data across New England states
-- **Features:** `YEAR`, `STATE`, `COUNTY`, `# FFS BENEFICIARIES`, `AVG RISK SCORE`, `ER VISITS PER 1000`, `% FOOD INSECURE`
-- **Target Variable:** Correlation between food insecurity and ER utilization and average risk score by county
 
 ## Technology Stack
 - Data Analysis: Excel
@@ -34,24 +27,16 @@ This project focuses on understanding the relationship between food insecurity a
 - **Impact:** Reduces ER visits per 1000 to 472.5 in the first year, 448.9 in the second and third years.
 - **ROI:** 576% in the first year, 890.8% in the second year, 924.97% in the third year.
 
-## Analysis of Food Insecurity and ER Utilization
-- **Component A:** Developed a dataset showing average risk score and ER visits per 1000 for each county in New England in 2021, along with the 2021 “% food insecure” from the County Health Rankings dataset.
-- **Component B:** Conducted a visual analysis showing the correlation between food insecurity and:
-  - ER utilization
-  - Average risk score by county
+## Key Findings
+- **Most Effective Strategy:** The addition of a new phone line staffed by triage nurses was the most cost-effective and had the highest ROI, effectively reducing the ER visits below the target of 450 visits per 1000 by the third year.
 
-## Practical Applications
-- **Targeted Interventions:** Selecting the optimal intervention to reduce ER visits while maximizing return on investment.
-- **Policy Development:** Informing decisions regarding healthcare resource allocation, especially in areas with high food insecurity.
+- **Comparative Analysis:** While building an urgent care center also achieved target reductions, it did not yield as high a return on investment as the telephonic triage service.
 
 ## Recommendations
-- **Preferred Solution for ER Reduction:** Adding a new phone line staffed by triage nurses is recommended for substantial ROI and achieving the ER visit reduction target.
-- **Outcome:** Enhances patient satisfaction by ensuring timely and appropriate care guidance, aligns with Good Health's mission, and addresses healthcare disparities influenced by food insecurity.
+- **Adopt the Phone Triage Line:** Good Health should implement the phone triage line to ensure effective ER visit reductions while maximizing cost efficiency and improving patient experiences.
 
-## Limitations
-- The data set and scope are limited to the current service area and may not capture broader healthcare trends.
-- Selection bias and the exclusion of counties with fewer than 10,000 CMS beneficiaries could impact the generalizability of the results.
+## Conclusion
+The analysis strongly supports the addition of a triage phone line as the best option to reduce unnecessary ER visits, providing a cost-effective and patient-oriented solution to the challenges faced by Good Health Physicians.
 
-## Future Work
-- Extend the study to include more comprehensive and diverse datasets.
-- Update the analysis to capture current trends and emerging factors affecting ER utilization and food insecurity in the healthcare industry.
+
+
